@@ -1,6 +1,6 @@
 from pytube import YouTube
 
-link = "https://youtube.com/shorts/9tOrqWNDvIA?feature=share"
+link = input("Enter the link: ")
 
 youtube_1 = YouTube(link)
 
